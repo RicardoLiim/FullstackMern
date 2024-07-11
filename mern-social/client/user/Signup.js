@@ -148,9 +148,6 @@ export default function Signup() {
           <CardActions>
             <Button color="primary" variant="contained" onClick={clickSubmit} className={classes.submit}>Submit</Button>
             <div className={classes.darkModeButton}>
-              <IconButton onClick={toggleDarkMode}>
-                {darkMode ? <Brightness7Icon /> : <Brightness4Icon />}
-              </IconButton>
             </div>
           </CardActions>
         </Card>
